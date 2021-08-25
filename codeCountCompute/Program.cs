@@ -9,24 +9,26 @@ namespace codeCountCompute
         {
             Console.WriteLine("请输入项目路径");
             string path =  Console.ReadLine();
+            Console.WriteLine("输入文件结尾 如.cs .java等等");
+            string endWith =  Console.ReadLine();
 
-            Console.WriteLine(dfsDirectory(path));
+            Console.WriteLine(dfsDirectory(path,endWith));
            
         }
 
-        static int dfsDirectory(string path)
+        static int dfsDirectory(string path,string endWith)
         {
             int count = 0;
             string[] subDir = Directory.GetDirectories(path);
             foreach (var s in subDir)
             {
-                count+= dfsDirectory(s);
+                count+= dfsDirectory(s,endWith);
             }
 
             string[] files = Directory.GetFiles(path);
             foreach (var file in files)
             {
-                if (file.EndsWith(".cs"))
+                if (file.EndsWith(endWith))
                 {
                     FileStream stream = File.OpenRead(file);
                     StreamReader reader = new StreamReader(stream);
