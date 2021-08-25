@@ -1,0 +1,16 @@
+C:\Users\SWQXDBA\RiderProjects\codeCountCompute\codeCountCompute\bin\Debug\net5.0\codeCountCompute.exe
+C:\Users\SWQXDBA\RiderProjects\codeCountCompute\codeCountCompute\bin\Debug\net5.0\codeCountCompute.deps.json
+C:\Users\SWQXDBA\RiderProjects\codeCountCompute\codeCountCompute\bin\Debug\net5.0\codeCountCompute.runtimeconfig.json
+C:\Users\SWQXDBA\RiderProjects\codeCountCompute\codeCountCompute\bin\Debug\net5.0\codeCountCompute.runtimeconfig.dev.json
+C:\Users\SWQXDBA\RiderProjects\codeCountCompute\codeCountCompute\bin\Debug\net5.0\codeCountCompute.dll
+C:\Users\SWQXDBA\RiderProjects\codeCountCompute\codeCountCompute\bin\Debug\net5.0\ref\codeCountCompute.dll
+C:\Users\SWQXDBA\RiderProjects\codeCountCompute\codeCountCompute\bin\Debug\net5.0\codeCountCompute.pdb
+C:\Users\SWQXDBA\RiderProjects\codeCountCompute\codeCountCompute\obj\Debug\net5.0\codeCountCompute.csprojAssemblyReference.cache
+C:\Users\SWQXDBA\RiderProjects\codeCountCompute\codeCountCompute\obj\Debug\net5.0\codeCountCompute.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SWQXDBA\RiderProjects\codeCountCompute\codeCountCompute\obj\Debug\net5.0\codeCountCompute.AssemblyInfoInputs.cache
+C:\Users\SWQXDBA\RiderProjects\codeCountCompute\codeCountCompute\obj\Debug\net5.0\codeCountCompute.AssemblyInfo.cs
+C:\Users\SWQXDBA\RiderProjects\codeCountCompute\codeCountCompute\obj\Debug\net5.0\codeCountCompute.csproj.CoreCompileInputs.cache
+C:\Users\SWQXDBA\RiderProjects\codeCountCompute\codeCountCompute\obj\Debug\net5.0\codeCountCompute.dll
+C:\Users\SWQXDBA\RiderProjects\codeCountCompute\codeCountCompute\obj\Debug\net5.0\ref\codeCountCompute.dll
+C:\Users\SWQXDBA\RiderProjects\codeCountCompute\codeCountCompute\obj\Debug\net5.0\codeCountCompute.pdb
+C:\Users\SWQXDBA\RiderProjects\codeCountCompute\codeCountCompute\obj\Debug\net5.0\codeCountCompute.genruntimeconfig.cache
