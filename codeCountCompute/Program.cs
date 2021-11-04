@@ -35,9 +35,13 @@ namespace codeCountCompute
                     int subCount = 0;
                     while (!reader.EndOfStream)
                     {
-                        reader.ReadLine();
-                        subCount++;
-                        count++;
+                        var readLine = reader.ReadLine();
+                        if (!readLine.Equals("\n") || !readLine.Equals(""))
+                        {
+                            subCount++;
+                            count++;
+                        }
+                        
                     }
                     stream.Close();
                     reader.Close();
