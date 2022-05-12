@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Net;
 
 namespace codeCountCompute
 {
@@ -9,7 +10,7 @@ namespace codeCountCompute
         {
             Console.WriteLine("请输入项目路径");
             string path =  Console.ReadLine();
-            Console.WriteLine("输入文件结尾 如.cs .java等等");
+            Console.WriteLine("输入文件结尾 如.cs .java等等 扫描所有文件则直接输入all");
             string endWith =  Console.ReadLine();
 
             Console.WriteLine(dfsDirectory(path,endWith));
@@ -25,10 +26,11 @@ namespace codeCountCompute
                 count+= dfsDirectory(s,endWith);
             }
 
+         
             string[] files = Directory.GetFiles(path);
             foreach (var file in files)
             {
-                if (file.EndsWith(endWith))
+                if (file.EndsWith(endWith)||endWith=="all")
                 {
                     FileStream stream = File.OpenRead(file);
                     StreamReader reader = new StreamReader(stream);
